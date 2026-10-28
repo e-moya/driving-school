@@ -13,8 +13,8 @@ from sklearn.tree import DecisionTreeClassifier
 FEATURES = ['left', 'front_left', 'front', 'front_right', 'right', 'speed']
 LABELS = ['steering', 'throttle']
 ACTIONS = [['left', 'straight', 'right'], ['accelerate', 'brake']]
-MAX_DEPTH = 15
-MIN_SAMPLES_LEAF = 7
+MAX_DEPTH = 16
+MIN_SAMPLES_LEAF = 8
 
 
 def load_examples(paths):
